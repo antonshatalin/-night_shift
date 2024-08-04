@@ -13,7 +13,7 @@ try:
     with open('config.yaml','r' ) as config:
         CONFIG = yaml.safe_load(config)
 except FileNotFoundError:
-    print('file not found')
+    print('config file not found')
     sys.exit(1)
 
 def check_unseen_messages(imap) -> tuple:
