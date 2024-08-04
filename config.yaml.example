@@ -1,0 +1,7 @@
+email: <your_user>@example.com
+alarm_sound: <path_to_mp3_file> 
+password: <your_password> 
+imap_server: <imap_server_name_or_ip> 
+mail_folder: <mail_folder_for_parse> 
+check_delay_m: 5 
+bot_token: <token_for_integration_with_tg> 
