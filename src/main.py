@@ -10,7 +10,7 @@ import datetime
 from os import system
 
 try:
-    with open('config.yaml','r' ) as config:
+    with open('../config.yaml','r' ) as config:
         CONFIG = yaml.safe_load(config)
 except FileNotFoundError:
     print('config file not found')
@@ -75,7 +75,7 @@ def main(argv):
                     if check_response[0] and check_response[1] != None:
                         print(datetime.datetime.now())
                         print('new_message/messages')
-                        system('vlc.exe --play-and-exit  src/music/alarm.mp3')
+                        system('vlc.exe --play-and-exit  music/alarm.mp3')
                         #parse_mail(check_response[1], imap)
                     else:
                         print(datetime.datetime.now())

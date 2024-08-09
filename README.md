@@ -5,7 +5,7 @@
 1. Setup VLC player
    * Ubuntu
       ```bash
-      sudo apt install vlc
+      sudo apt install vlc ffmpeg
       ```
    * Sles/OpenSuse
       ```bash
