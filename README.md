@@ -12,15 +12,20 @@
       sudo zypper in vlc
       ```
 
-   Setup VLC player (windows)
-      1. 
-        ![image](./documents/images/0.png)
-      2. 
-        ![image](./documents/images/1.png)
-      3. 
-        ![image](./documents/images/2.png)
-      4.   
-        ![image](./documents/images/3.png)
+   1.Setup VLC player (windows)
+      1. Install VLC
+         * test
+      2. Open system properties
+
+         ![image](./documents/images/0.png)
+      3. Click the Environment Variables
+
+         ![image](./documents/images/1.png)
+      4. Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+
+         ![image](./documents/images/3.png)
+      5. Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+         ![image](./documents/images/4.png) 
 2. Install python3 requirements
       ```bash
       pip3 install -r requirements.txt
