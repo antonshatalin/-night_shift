@@ -20,7 +20,7 @@
          ![image](./documents/images/0.png)
       3. Click the Environment Variables
 
-         ![image](./documents/images/1.png)
+         <center>![image](./documents/images/1.png)</center>
       4. Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
 
          ![image](./documents/images/3.png)
