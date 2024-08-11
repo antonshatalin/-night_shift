@@ -25,6 +25,7 @@
 
          ![image](./documents/images/3.png)
       5. Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+
          ![image](./documents/images/4.png) 
 2. Install python3 requirements
       ```bash
